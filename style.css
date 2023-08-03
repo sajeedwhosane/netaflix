@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+body{background-color:black;color:white;}
 header{
     width: 100%;
     height: 100vh;
@@ -13,4 +14,40 @@ nav{
 #preferences{
     margin-left:75%;
     padding:5px;
+}
+.header-content{
+    color:white;
+    width:40%;
+    margin-left:30%;
+    margin-top: 15%;
+    margin-right:30%;
+
+}
+.header-content h1, .header-content h3, .header-content p{
+    padding-bottom: 15px;
+}
+.header-content h1{
+    font-size: 2.5rem;
+    
+}
+.header-content h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.header-content p{
+    font-size: 1.2rem;
+    
+}
+.header-content input{
+    line-height: 1.5rem;
+    width:50%;
+    background: transparent;
+    border:none;
+}
+.feature{
+    display:flex;
+
+}
+span{
+    display:none;
 }
